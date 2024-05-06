@@ -1,10 +1,8 @@
 {
   "name": "@config-form/plugin-element",
-  "version": "1.0.3",
+  "version": "1.0.6",
   "main": "index.js",
   "peerDependencies": {
-    "element-ui": "^2.0.0",
-    "vue": "^2.0.0"
   },
   "publishConfig": {
     "access": "public",
