@@ -1,0 +1,11 @@
+{
+  "name": "@config-form/v2",
+  "version": "1.0.5",
+  "main": "dist/config-form.umd.js",
+  "dependencies": {
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}

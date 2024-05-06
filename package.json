@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "lint": "turbo lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "devDependencies": {
+    "turbo": "^1.12.4"
+  },
+  "packageManager": "pnpm@8.9.0",
+  "dependencies": {
+    "@config-form/v2": "workspace:^",
+    "vite": "^5.2.11"
+  }
+}

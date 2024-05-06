@@ -1,0 +1,25 @@
+{
+  "name": "@config-form/v3",
+  "version": "1.0.0",
+  "main": "lib/config-form.umd.js",
+  "scripts": {
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@babel/plugin-transform-runtime": "^7.24.3",
+    "@babel/plugin-transform-template-literals": "^7.24.1",
+    "@babel/preset-env": "^7.24.5",
+    "@config-form/plugin-element": "workspace:*",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "@vue/compiler-sfc": "^3.4.26",
+    "lodash": "^4.17.21",
+    "terser": "^5.31.0",
+    "vite": "^5.2.11",
+    "vue": "3.4.26"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
