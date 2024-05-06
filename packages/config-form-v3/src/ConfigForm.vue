@@ -1,5 +1,6 @@
 <template>
     <component
+        ref="form"
         :is="componentMaps['form'] || 'el-form'"
         :model="model"
         :rules="rules"
@@ -104,6 +105,9 @@ export default {
         },
         getModel() {
             return this.model;
+        },
+        validate(){
+            return this.$refs.form.validate();
         }
     }
 };

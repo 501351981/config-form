@@ -108,11 +108,15 @@ const _sfc_main$1 = {
     },
     getModel() {
       return this.model;
+    },
+    validate() {
+      return this.$refs.form.validate();
     }
   }
 };
 function _sfc_render$1(_ctx, _cache, $props, $setup, $data, $options) {
   return openBlock(), createBlock(resolveDynamicComponent($options.componentMaps["form"] || "el-form"), mergeProps({
+    ref: "form",
     model: $props.model,
     rules: $options.rules,
     class: "config-form"

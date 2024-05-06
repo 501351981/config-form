@@ -1,6 +1,6 @@
 {
   "name": "@config-form/v3",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "main": "dist/config-form.umd.js",
   "dependencies": {
   },

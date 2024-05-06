@@ -38,6 +38,7 @@ var render$1 = function() {
   var _h = _vm.$createElement;
   var _c = _vm._self._c || _h;
   return _c(_vm.componentMaps["form"] || "el-form", _vm._b({
+    ref: "form",
     tag: "component",
     staticClass: "config-form",
     attrs: {
@@ -171,6 +172,9 @@ const __vue2_script$1 = {
     },
     getModel() {
       return this.model;
+    },
+    validate() {
+      return this.$refs.form.validate();
     }
   }
 };
